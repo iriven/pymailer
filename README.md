@@ -10,7 +10,7 @@ smtp = SmtpClient()
 smtp.useTLS = True
 smtp.useSSL = False
 smtp.server.address='smtp.server.tld'
-smtp.server.username='user@mail.tld'
+smtp.server.username='user@server.tld'
 smtp.server.password='secret_password'
 smtp.mail.addTo(['to1@email.tld','to2@email.tld'])
 smtp.mail.addBcc(['bcc1@email.tld','bcc2@email.tld'])
