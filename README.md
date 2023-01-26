@@ -6,10 +6,10 @@ A simple and comprehensive Python class based SMTP mailer module
 
 ```python
 attachements=[
-    os.path.join(os.path.dirname(__file__), 'file1.pdf'),
-    os.path.join(os.path.dirname(__file__), 'file2.png'),
-    os.path.join(os.path.dirname(__file__), 'file3.gpg'),
-    os.path.join(os.path.dirname(__file__), 'file4.txt'),
+    os.path.join(location_path_to, 'file1.pdf'),
+    os.path.join(location_path_to, 'file2.png'),
+    os.path.join(location_path_to, 'file3.gpg'),
+    os.path.join(location_path_to, 'file4.txt'),
 ]
 
 smtp = SmtpClient()
