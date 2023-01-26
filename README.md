@@ -1,5 +1,5 @@
-# pymailer
-An easy to use Python class based SMTP mailer module
+# PYMailer
+A simple and comprehensive Python class based SMTP mailer module
 
 
 In Progress ...
