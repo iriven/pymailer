@@ -13,8 +13,8 @@ attachements=[
 ]
 
 smtp = SmtpClient()
-smtp.useTLS = True
-smtp.useSSL = False
+smtp.enable.tls = True
+smtp.enable.ssl = False
 smtp.server.address='smtp.server.tld'
 smtp.server.username='user@mail.tld'
 smtp.server.password='secret_password'
