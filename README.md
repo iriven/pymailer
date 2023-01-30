@@ -22,7 +22,7 @@ smtp.use.encryption = False
 smtp.use.tls = True
 smtp.server.address='smtp.server.tld'
 smtp.server.timeout=60 (optional)
-smtp.server.port=587 (optional)  # i.e: default ports| standard: 25, ssl: 465, tls: 587
+smtp.server.port=587 (optional)  # i.e: preconfigured ports| standard: 25, ssl: 465, tls: 587
 smtp.server.auth.user='you@server.tld'
 smtp.server.auth.password='s3cret!'
 smtp.mail.addTo(to_recipients)
