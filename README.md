@@ -1,6 +1,6 @@
 # PYMailer
 
-A simple and comprehensive Python class based SMTP Mail Transport Agent
+A simple and comprehensive Python SMTP Mailer module
 
 ## Usage
 
